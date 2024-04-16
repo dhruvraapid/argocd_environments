@@ -1,5 +1,5 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- deployments/int_deployment.yaml
-- ConfigMaps/intconfigmaps.yaml
+- ../deployments/int_deployment.yaml
+- ../ConfigMaps/intconfigmaps.yaml
