@@ -1,19 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: myapp-argo-application
+  name: int-env-audit-app
   namespace: argocd
 spec:
-  project: default
+  project: Project1
 
   source:
     repoURL: https://github.com/dhruvraapid/argocd_environments.git 
-    #repoURL: https://git-codecommit.us-east-1.amazonaws.com/v1/repos/argocd-app-config-main
     targetRevision: HEAD
 
-    path: dev/
-
-
+    path: argo_code
 
   destination:
     server: https://kubernetes.default.svc
