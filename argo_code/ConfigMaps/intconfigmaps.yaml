@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: myapp-configmap
+  name: int-audit-configmap
 data:
 
 
