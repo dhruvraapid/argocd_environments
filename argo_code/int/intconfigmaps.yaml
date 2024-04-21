@@ -3,7 +3,5 @@ kind: ConfigMap
 metadata:
   name: int-audit-configmap
 data:
-
-
   ENV_VAR_1: "int_secret1111"
   ENV_VAR_2: "int_secret2"
