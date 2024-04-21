@@ -3,3 +3,4 @@ kind: Kustomization
 resources:
 - int_deployment.yaml
 - intconfigmaps.yaml
+- ../qa/qaconfigmaps.yaml
