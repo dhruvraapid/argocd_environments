@@ -4,3 +4,4 @@ metadata:
   name: all-env-audit-configmap
 data:
   ENV_VAR_1: "common-env-value"
+  ENV_VAR_2: "common-env-value"
